@@ -20,9 +20,9 @@ jobs:
     #- run : mkdir build
     #- run: path = $(pwd)
     #- run : cd build
-    
+    - run : mkdir build && cd build
     - name: Cmake 
-      run: cmake .
+      run: cmake ..
     - name: make
       run: make 
     - name: exe
