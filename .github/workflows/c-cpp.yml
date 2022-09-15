@@ -29,7 +29,7 @@ jobs:
      # run: test/test/Test.exe
     # - name: make check
      # run: make check
-   # - name: make distcheck
+   #- name: make distcheck
     #  run: make distcheck
     - name: Step 3 - Use the Upload Artifact GitHub Action
       uses: actions/upload-artifact@v2
