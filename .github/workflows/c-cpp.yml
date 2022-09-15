@@ -18,7 +18,7 @@ jobs:
    # - name: configure
     #  run: ../configure
     - run : mkdir build
-    - run: path = $(pwd)
+    #- run: path = $(pwd)
     - run : cd build
     
     - name: Cmake
