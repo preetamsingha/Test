@@ -26,7 +26,7 @@ jobs:
     - name: make
       run: make 
     - name: exe
-      run: ./Test.exe
+      run: test/test/Test.exe
     # - name: make check
      # run: make check
     #- name: make distcheck
