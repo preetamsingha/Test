@@ -22,12 +22,8 @@ jobs:
       run: make 
     #- name: exe
       #run: ../Test.exe
-    # - name: make check
-     # run: make check
-   #- name: make distcheck
-    #  run: make distcheck
-    - name: Step 3 - Use the Upload Artifact GitHub Action
+    - name: Upload Artifacts
       uses: actions/upload-artifact@v2
-      with: 
-          name: assets-for-download
-          path: downloads
+      with:
+       name: my-artifact
+       path: "./build"
