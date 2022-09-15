@@ -15,18 +15,13 @@ jobs:
     - uses: actions/checkout@v3
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
-   # - name: configure
-    #  run: ../configure
-    #- run : mkdir build
-    #- run: path = $(pwd)
-    #- run : cd build
     - run : mkdir build && cd build
     - name: Cmake 
       run: cmake .
     - name: make
       run: make 
-    - name: exe
-      run: ../Test.exe
+    #- name: exe
+      #run: ../Test.exe
     # - name: make check
      # run: make check
    #- name: make distcheck
