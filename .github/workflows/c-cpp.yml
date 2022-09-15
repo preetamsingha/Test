@@ -17,12 +17,12 @@ jobs:
       run: sudo apt install -y libcppunit-dev
    # - name: configure
     #  run: ../configure
-    - run : mkdir build
+    #- run : mkdir build
     #- run: path = $(pwd)
-    - run : cd build
+    #- run : cd build
     
     - name: Cmake 
-      run: cmake ../
+      run: cmake 
     - name: make
       run: make 
     - name: exe
