@@ -22,9 +22,9 @@ jobs:
     - run : cd build
     
     - name: Cmake
-      run: cmake
+      run: ./Cmake
     - name: make
-      run: make
+      run: ./make
     - name: exe
       run: cmake_hello
     # - name: make check
